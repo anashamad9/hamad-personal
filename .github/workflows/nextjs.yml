@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # change if your default branch is different
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -22,14 +22,15 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 9
+          run_install: true            # installs deps
+          args: --frozen-lockfile      # or remove if it still fails
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
 
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm deploy    # runs build + export -> ./out
+      - run: pnpm deploy               # build + export -> out/
 
       - uses: actions/upload-pages-artifact@v3
         with:
