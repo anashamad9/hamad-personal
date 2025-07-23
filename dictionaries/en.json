@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "articles": "Articles",
+    "card": "Business Card"
+  },
+  "header": {
+    "name": "Anas Hamad",
+    "role": "AI & Machine Learning Engineer",
+    "location": "Amman, Jordan"
+  },
+  "topTechStack": ["Python", "LLMs", "NLP", "Data Manipulation", "TensorFlow", "RAG", "Fine Tuning"],
+  "description": [
+    "Hi! I'm an AI and Machine Learning Engineer with a degree in Computer Engineering. I like building things that make life easier using data and AI. Some of my favorite projects are Onqoud, which helps restaurants understand their business better, and ElmLLM, an Arabic AI model I built from scratch. I usually work with Python, TensorFlow, and tools like Power BI to show data in a clear way.",
+    "I've won 1st place in a NASA competition and was part of the top AI project at PSUT. I'm always looking to learn more, build cool ideas, and connect with people who love working on smart and helpful tech."
+  ],
+  "cta": {
+    "contact": "Contact me",
+    "resume": "View Resume"
+  },
+  "sections": {
+    "experience": "EXPERIENCE",
+    "education": "EDUCATION",
+    "tech_stack": "TECH STACK",
+    "achievements": "ACHIEVEMENTS",
+    "certifications": "CERTIFICATIONS & COURSES",
+    "projects": "PROJECTS",
+    "articles": "ARTICLES",
+    "social": "SOCIAL MEDIA",
+    "view_all": "View all"
+  },
+  "experiences": [
+    {
+      "role": "AI Product Development",
+      "company": "Onqoud",
+      "period": "2024 - present",
+      "description": "I led the development of Onqoud, a smart SaaS platform that uses AI insights to help restaurants predict future sales and streamline their operations with ease! I focused on designing innovative machine learning models, real-time data analytics that deliver instant results, and integrating flexible, scalable solutions using AWS to provide restaurants with a practical and intelligent experience."
+    },
+    {
+      "role": "Data Scientist & Operations",
+      "company": "Digizag",
+      "period": "2025 - present",
+      "description": "I develop internal systems to automate the processes of extracting, reading, cleaning, organizing, and presenting data in clear, easy-to-read reports."
+    },
+    {
+      "role": "AI & Data Science Intern",
+      "company": "ShAI",
+      "period": "2024 - 2024",
+      "description": "Designed ensemble classifiers (Random Forest - Scikit-learn) to predict customer behavior, achieving 89% accuracy even with imbalanced datasets by using techniques like SMOTE and class weighting. Using Pandas and NumPy, I cleaned and transformed raw data like a pro, handling missing values with KNN, and tackling outliers and skewed distributions smoothly."
+    },
+    {
+      "role": "Python Developer Intern",
+      "company": "Ahli Bank",
+      "period": "2023 - 2023",
+      "description": "Designed custom data structures in Python to speed up in-memory processing of large financial datasets, cutting transaction batch runtime by 40%! I also built a serverless data pipeline on AWS Lambda to ingest, clean, and store data seamlessly. I've gained awesome experience in managing structured data, AWS cloud solutions, and database design in a smart way. I worked on data processing and automation tasks using Python, contributing to cloud data infrastructure projects to help build strong and efficient systems."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Balqaa Applied University",
+      "degree": "Bachelor of Engineer in Computer Engineering",
+      "period": "2020 - 2025",
+      "description": "Focused on software development, data structures, machine learning, and AI systems. Learned how to build smart solutions using both hardware and software."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "PSUT Best Startup Idea",
+      "issuer": "PSUT",
+      "period": "2023",
+      "description": "Fund for winning the best startup idea"
+    },
+    {
+      "title": "First place NASA AI competition",
+      "issuer": "NASA",
+      "period": "2024",
+      "description": "First place in NASA competition for best project in artificial intelligence."
+    },
+    {
+      "title": "Best Orange Incubator Project",
+      "issuer": "Orange",
+      "period": "2022-2023",
+      "description": "6-month journey at Orange Incubator learning AI startup product development."
+    },
+    {
+      "title": "Hackathon Winner - AI",
+      "issuer": "ACM Jordan",
+      "period": "2023",
+      "description": "Led a team to victory in the AI category by developing a real-time sentiment analysis tool for social media monitoring."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Data Science & AI Track",
+      "issuer": "Data Camp",
+      "period": "2025",
+      "description": "Comprehensive course covering neural networks, CNNs, RNNs, and deep learning best practices"
+    },
+    {
+      "title": "Machine Learning Engineering Track",
+      "issuer": "Data Camp",
+      "period": "2024",
+      "description": "Advanced certification covering ML implementation on AWS cloud infrastructure."
+    },
+    {
+      "title": "Cloud Professional For Engineers",
+      "issuer": "Coursera",
+      "period": "2023",
+      "description": "Advanced Skills to AWS Cloud and implementation."
+    }
+  ],
+  "projects": [
+    {
+      "title": "ElmLLM",
+      "description": "ElmLLM is a Arabic LLM trained on data from our culture. It is designed to understand and generate Arabic text, making it a valuable tool for various applications.",
+      "tech": ["Python", "PyTorch", "Transformers", "Hugging Face", "CUDA", "Arabic NLP"],
+      "github": "https://github.com/anashamad9/ElmLLM",
+      "demo": "https://github.com/anashamad9/ElmLLM",
+      "period": "2025"
+    },
+    {
+      "title": "Onqoud AI",
+      "description": "Developed a BI product with features like future forecasting and insight for restaurants.",
+      "tech": ["Python", "PowerBI", "Tensorflow", "Next.js", "Tableau", "AWS"],
+      "github": "https://github.com/onqoud",
+      "demo": "https://www.onqoud.com",
+      "period": "2025"
+    },
+    {
+      "title": "Search Recommendation Engine",
+      "description": "Created a machine learning recommendation system achieving 85% accuracy using collaborative filtering.",
+      "tech": ["Python", "Scikit-learn", "Pandas", "Flask", "Collaborative Filtering"],
+      "github": "https://github.com/username/recommendation-engine",
+      "demo": "https://recommendation-engine.demo.com",
+      "period": "2022"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "enabled": true,
+      "topic": "The Future of AI in Product Design",
+      "date": "January 15, 2025",
+      "readTime": "5 min read",
+      "content": "Artificial Intelligence is revolutionizing the way we approach product design. From automated design systems to intelligent user research, AI is becoming an indispensable tool for modern designers.\n\nIn this article, I explore how AI tools like v0, Figma's AI features, and machine learning algorithms are changing the design landscape. We'll look at practical applications, benefits, and potential challenges that designers face when integrating AI into their workflow.\n\n## Key Areas of Impact\n\n**Design Automation**: AI can now generate design variations, create responsive layouts, and even suggest color palettes based on brand guidelines and user preferences.\n\n**User Research**: Machine learning algorithms can analyze user behavior patterns, predict user needs, and provide insights that would take human researchers weeks to uncover.\n\n**Accessibility**: AI-powered tools can automatically check designs for accessibility compliance, suggest improvements, and ensure inclusive design practices.\n\n## The Human Touch\n\nWhile AI is powerful, the human element remains crucial. Designers bring empathy, creativity, and strategic thinking that AI cannot replicate. The future lies in collaboration between human designers and AI tools.\n\nAs we move forward, designers who embrace AI while maintaining their unique human perspective will be best positioned to create meaningful, impactful products."
+    },
+    {
+      "id": 2,
+      "enabled": false,
+      "topic": "Building Scalable Design Systems",
+      "date": "December 28, 2023",
+      "readTime": "8 min read",
+      "content": "Design systems are the backbone of consistent, scalable product design. They enable teams to work efficiently while maintaining brand coherence across all touchpoints.\n\nAfter working on design systems for companies of various sizes, I've learned that successful design systems require more than just a component library. They need governance, documentation, and a culture of adoption.\n\n## Foundation First\n\n**Design Tokens**: Start with design tokens for colors, typography, spacing, and other fundamental elements. These tokens should be platform-agnostic and easily translatable across different technologies.\n\n**Component Architecture**: Build components with flexibility in mind. Each component should have clear props, states, and usage guidelines.\n\n## Implementation Strategy\n\n**Start Small**: Begin with the most commonly used components. Focus on buttons, inputs, and basic layout components before moving to complex patterns.\n\n**Documentation**: Comprehensive documentation is crucial. Include code examples, design guidelines, and do's and don'ts for each component.\n\n**Governance**: Establish clear processes for proposing changes, reviewing contributions, and maintaining consistency across the system.\n\n## Measuring Success\n\nTrack adoption rates, consistency metrics, and developer/designer satisfaction. A successful design system should reduce design debt, speed up development, and improve user experience consistency.\n\nThe investment in a robust design system pays dividends in team efficiency, product quality, and user satisfaction."
+    },
+    {
+      "id": 3,
+      "enabled": false,
+      "topic": "User-Centered Design in the Age of Remote Work",
+      "date": "November 10, 2023",
+      "readTime": "6 min read",
+      "content": "Remote work has fundamentally changed how we conduct user research and design processes. Traditional methods like in-person interviews and co-design sessions have evolved into digital-first approaches.\n\nThis shift has brought both challenges and opportunities. While we've lost some of the nuanced observations possible in face-to-face interactions, we've gained access to more diverse user groups and innovative research methods.\n\n## Adapting Research Methods\n\n**Remote User Interviews**: Video calls have become the norm, but they require different skills. Creating rapport through a screen, managing technical issues, and reading non-verbal cues in a digital environment are new competencies for researchers.\n\n**Digital Collaboration**: Tools like Miro, Figma, and specialized research platforms have enabled real-time collaboration with users and stakeholders across different time zones.\n\n**Asynchronous Research**: Diary studies, unmoderated usability tests, and survey-based research have become more prominent, allowing for deeper insights over extended periods.\n\n## New Opportunities\n\n**Global Reach**: Remote research has democratized access to diverse user groups. We can now easily include participants from different geographical locations, cultures, and backgrounds.\n\n**Natural Environment**: Users participate from their natural environments, providing more authentic insights into how products are actually used.\n\n**Cost Efficiency**: Reduced travel costs and venue expenses have made user research more accessible to smaller teams and startups.\n\n## Best Practices\n\nInvest in good technology, create structured processes for remote collaboration, and maintain human connection despite the digital barrier. The future of user research is hybrid, combining the best of remote and in-person methods."
+    },
+    {
+      "id": 4,
+      "enabled": false,
+      "topic": "The Psychology of Color in Digital Interfaces",
+      "date": "October 22, 2023",
+      "readTime": "7 min read",
+      "content": "Color is one of the most powerful tools in a designer's arsenal. It can evoke emotions, guide user behavior, and communicate brand values without a single word.\n\nUnderstanding color psychology is crucial for creating interfaces that not only look beautiful but also function effectively. Different colors trigger different psychological responses, and these responses can vary significantly across cultures and contexts.\n\n## Emotional Impact\n\n**Red**: Creates urgency and excitement. Often used for error states, warnings, and call-to-action buttons. However, it can also increase stress levels if overused.\n\n**Blue**: Conveys trust, stability, and professionalism. It's the most popular color for corporate websites and financial applications.\n\n**Green**: Associated with success, growth, and nature. Commonly used for positive feedback, environmental themes, and financial gains.\n\n**Yellow**: Represents optimism and energy but can be overwhelming in large quantities. Best used as an accent color.\n\n## Cultural Considerations\n\nColor meanings vary significantly across cultures. White represents purity in Western cultures but mourning in some Eastern cultures. Red symbolizes luck in China but danger in many Western contexts.\n\n## Accessibility and Inclusion\n\nColor should never be the only way to convey information. Consider users with color vision deficiencies and ensure sufficient contrast ratios for readability.\n\n## Practical Application\n\nUse color strategically to create hierarchy, guide attention, and reinforce your brand identity. Test color choices with your target audience and consider the emotional journey you want users to experience.\n\nRemember, the best color palette is one that serves your users' needs while reflecting your brand's personality."
+    },
+    {
+      "id": 5,
+      "enabled": false,
+      "topic": "Soon",
+      "date": "September 18, 2023",
+      "readTime": "4 min read",
+      "content": "New article coming soon..."
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "Email",
+      "href": "mailto:hi.anashamad@gmail.com",
+      "value": "hi.anashamad@gmail.com",
+      "display": "hi.anashamad@gmail.com"
+    },
+    { "label": "Phone", "href": "tel:+962795874662", "value": "+962795874662", "display": "+962795874662" },
+    { "label": "X", "href": "https://x.com/its_anas9", "username": "@its_anas9" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/anas-hamad1909/", "username": "@anas-hamad1909" },
+    { "label": "Hugging Face", "href": "https://huggingface.co/anashamad", "username": "@anashamad" },
+    { "label": "Kaggle", "href": "https://www.kaggle.com/anasbassam", "username": "@anasbassam" },
+    { "label": "GitHub", "href": "https://github.com/anashamad9", "username": "@anashamad9" }
+  ]
+}
